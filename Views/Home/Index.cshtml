@@ -1,0 +1,90 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+<div class="row">
+
+    <div class="col-12 text-center">
+
+        <h3>
+            Sample code which demonstrates how to dynamically add envelope metadata to a existing draft
+        </h3>
+        <br />
+        <br />
+        <br />
+        <br />
+        <form method="post" action="@Url.Action("SendEnvelope")">
+
+            <div class="row">
+                <div class="col-sm-6 text-right">
+                    Country
+                </div>
+                <div class="col-sm-6 text-left">
+                    <select name="country">
+                        <option selected="">
+                            Argentina
+                        </option>
+                        <option>
+                            Australia
+                        </option>
+                        <option>
+                            Pakistan
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <br />
+
+            <div class="row">
+                <div class="col-sm-6 text-right">
+                    City
+                </div>
+                <div class="col-sm-6 text-left">
+                    <select name="city">
+                        <option selected="">
+                            Frankfurt
+                        </option>
+                        <option>
+                            Perth
+                        </option>
+                        <option>
+                            Madrid
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <br />
+            <br />
+
+            <div class="row">
+                <div class="col-sm-6 text-right">
+                    City
+                </div>
+                <div class="col-sm-6 text-left">
+                    <select name="continent">
+                        <option selected="">
+                            Europe
+                        </option>
+                        <option>
+                            Asia
+                        </option>
+                        <option>
+                            South America
+                        </option>
+                    </select>
+                </div>
+            </div>
+            <br/>
+            <br/>
+            <br/>
+            <button class="btn btn-primary" type="submit">Send For Signing</button>
+            <input type="hidden"  name="draftId" value="@ViewBag.DraftId"  />
+            <input type="hidden"  name="email" value="@ViewBag.Email"  />
+        </form>
+
+    </div>
+
+</div>
