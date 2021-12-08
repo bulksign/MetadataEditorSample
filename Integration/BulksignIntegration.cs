@@ -7,7 +7,7 @@ namespace Integration
 {
 	public class BulksignIntegration
 	{
-		private const string BulksignOrganizationToken = "";
+		private const string OrganizationKey = "";
 
 
 		public BulksignResult<SendEnvelopeResultApiModel> UpdateMetadataAndSendForSigning(string senderEmail, string draftId, string city, string continent, string country)
@@ -34,7 +34,7 @@ namespace Integration
 
 			AuthenticationApiModel auth = new AuthenticationApiModel();
 			auth.UserEmail = senderEmail;
-			auth.Token = BulksignOrganizationToken;
+			auth.Key = OrganizationKey;
 
 			BulksignResult<string> updateResult = api.UpdateDraftSettings(auth, draftSettings);
 
