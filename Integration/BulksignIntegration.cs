@@ -24,7 +24,7 @@ namespace Integration
 
 
 			//specify the integration url for on-premise version of Bulksign, leave empty to target bulksign.com
-			BulkSignApi api = new BulkSignApi();
+			BulksignApiClient api = new BulksignApiClient();
 
 			UpdateDraftApiModel draftSettings = new UpdateDraftApiModel();
 			draftSettings.DraftId = draftId;
