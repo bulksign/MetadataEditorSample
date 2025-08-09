@@ -45,25 +45,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bulksign.ApiTypeDefinitions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\BulksignSdk.4.109.1\lib\netstandard2.0\Bulksign.ApiTypeDefinitions.dll</HintPath>
+      <HintPath>packages\BulksignSdk.4.117.0\lib\netstandard2.0\Bulksign.ApiTypeDefinitions.dll</HintPath>
     </Reference>
     <Reference Include="Bulksign.NetSdk, Version=4.4.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\BulksignSdk.4.109.1\lib\netstandard2.0\Bulksign.NetSdk.dll</HintPath>
+      <HintPath>packages\BulksignSdk.4.117.0\lib\netstandard2.0\Bulksign.NetSdk.dll</HintPath>
     </Reference>
     <Reference Include="Bulksign.Zephyr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>packages\BulksignSdk.4.109.1\lib\netstandard2.0\Bulksign.Zephyr.dll</HintPath>
+      <HintPath>packages\BulksignSdk.4.117.0\lib\netstandard2.0\Bulksign.Zephyr.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=4.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.4.1.0\lib\net472\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>packages\BulksignSdk.4.109.1\lib\netstandard2.0\Microsoft.CSharp.dll</HintPath>
+      <HintPath>packages\BulksignSdk.4.117.0\lib\netstandard2.0\Microsoft.CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>packages\Microsoft.Web.Infrastructure.2.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>packages\BulksignSdk.4.117.0\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
